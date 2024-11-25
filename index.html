@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo-removebg.png">
+    <link rel="icon" href="images/logo-removebg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    
+    <div id="upper">
+        <header>
+            <h1>Weather Insights</h1>
+            <p>Forecasting the Skies: The Science and Art of Weather Predictions.</p>
+        </header>
+    
+        <nav>
+            <!-- <a href="index.html">Home</a> -->
+            <a href="#history">History</a>
+            <a href="#present">Present</a>
+            <a href="#future">Future</a>
+            <a href="equipment.html">Equipments</a>
+            <a href="about.html">know us</a>
+        </nav>
+
+    </div>
+    
+
+    <main>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img class="slide-img" src="images/lightening.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/snow.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/summer.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/spring.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/mountain.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/lightening.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/snow.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/summer.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/spring.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/mountain.avif" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="images/lightening.avif" alt="">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="weather">
+            <h1>Know Your Weather</h1>
+            <div class="search-box">
+                <input type="text" id="location-input" placeholder="Enter Location" class="input-box">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+
+            </div>
+            <div class="location-not-found">
+                <h1>Please Search Appropriate Location!!!</h1>
+                <img src="images/lnp1.png" alt="404 Error">
+            </div>
+
+            <div class="weather-body">
+                <h1 class="cityInfo" style="color: purple;">--</h1>
+                <div class="flex">
+                    <img src="images/cleary.png" alt="Weather Image" class="weather-img">
+                <div class="weather-box">
+                    <p class="temperature">--°C</p>
+                    <p class="description">--</p>
+                </div>
+
+                </div>
+                
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-sharp fa-solid fa-droplet"></i>
+                        <div class="text">
+                            <span id="humidity">--%</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed">--Km/H</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <!-- <h2>Weather in Major Indian Cities</h2>
+            <div id="default-cities" class="city-weather-grid">
+              <div id="city-delhi" class="weather-card"></div>
+              <div id="city-punjab" class="weather-card"></div>
+              <div id="city-bangalore" class="weather-card"></div>
+            </div> -->
+
+        </div>
+        <div class="intro">
+            <h1 class="h1-about">Get to Know</h1>
+            <p>Weather prediction, often referred to as weather forecasting, is a field that combines science, technology, and data analysis to predict atmospheric conditions for a specific location and time. The practice dates back centuries, with early civilizations relying on observational patterns to anticipate changes in weather. Today, weather forecasting has evolved into a sophisticated science that involves understanding the complexities of the Earth’s atmosphere. Modern weather forecasting goes beyond mere observation, utilizing advanced technologies and vast networks of data to provide accurate and timely predictions.</p>
+            <p>At the heart of weather forecasting lies the science of meteorology, which studies the atmosphere and its phenomena, including temperature, humidity, wind patterns, and precipitation. Meteorologists use a variety of tools, from weather balloons and satellites to supercomputers, to gather and analyze atmospheric data. By understanding the behavior of the atmosphere and how various elements interact, meteorologists can model potential future states of the weather. This science is crucial not only for day-to-day planning but also for addressing larger challenges, such as preparing for natural disasters and understanding climate change.</p>
+            <p>While weather prediction relies heavily on science, it also involves a degree of art, as forecasters interpret complex data patterns to make informed predictions. Despite the availability of sophisticated technology, the atmosphere remains a dynamic system with many uncertainties. The ability to analyze trends, detect subtle shifts, and recognize emerging patterns requires experience and intuition, skills that meteorologists hone over years of practice. Thus, weather forecasting combines rigorous scientific data with the artful interpretation of the forecaster, making it a unique blend of both precision and judgment.</p>
+            <p>The impact of accurate weather prediction on society is profound. Reliable forecasts allow communities to prepare for severe weather events, aiding in disaster management and reducing potential damage and loss of life. Agriculture, transportation, and energy sectors depend on weather data for efficient operations and safety measures. Furthermore, as climate change intensifies, weather forecasting has become essential for tracking shifts in weather patterns, enabling proactive measures to mitigate climate-related risks. By blending scientific precision with intuitive understanding, weather forecasting empowers individuals and industries to make informed decisions, adapting to the ever-changing environment around them.</p>
+
+        </div>
+        <div class="image-slider">
+            <img src="images/snowhill.jpg" alt="">
+            <img src="images/road.jpg" alt="">
+            <img src="images/skypalm.jpg" alt="">
+            <img src="images/bridge.jpg" alt="">
+            <img src="images/windmill.jpg" alt="">
+
+        </div>
+
+
+        <!-- History Section -->
+        <section id="history" class="content-section">
+            <h2>History of Weather Prediction</h2>
+            <p>The history of weather prediction spans thousands of years, with early human civilizations relying on natural signs and celestial observations to forecast the weather. Before scientific instruments, people observed animal behavior, stars, clouds, and even folklore to anticipate changes in weather.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="x1">Observing Nature and Animal Behavior</h3>
+                    <p><i>Animals as Indicators: </i>Many ancient cultures believed animals could sense weather changes. For instance, birds flying low or cows lying down were often considered signs of an impending storm. <br><br>
+                        <i>Insects and Pests: </i>The behavior of insects, such as ants building up their mounds or bees retreating to their hives, was also thought to predict weather patterns. <br><br>
+                        <i>Plant Behavior: </i>Some plants, like pine cones and dandelions, react to humidity by opening or closing, which early people noted as indicators of rain or fair weather.</p>
+                </div>
+                <div class="card">
+                    <h3 class="x1">Celestial and Astronomical Observations</h3>
+                    <p><i>Astrology and Weather: </i>Ancient Babylonians and Greeks often combined astrology with meteorology, believing that the positions of stars and planets influenced weather. The Babylonians, around 650 BCE, were one of the first to record weather events in conjunction with celestial observations. <br><br>
+                        <i>Red Sky Belief: </i>The well-known saying, “Red sky at night, shepherd’s delight; red sky in the morning, shepherd’s warning,” has roots in ancient weather lore. This phrase reflects that a red sunset often indicates stable weather, while a red sunrise suggests an approaching storm.</p>
+                </div>
+                <div class="card">
+                    <h3 class="x1">Chinese and Indian Weather Observations</h3>
+                    <p><i>Chinese Almanacs: </i>Ancient Chinese civilizations kept detailed almanacs with weather records that spanned centuries. These records, alongside beliefs in Feng Shui, helped forecast weather patterns critical for agriculture. <br><br>
+                        <i>Indian Monsoon Predictions: </i>Ancient Indian texts discussed monsoon patterns essential for crop planning. Scholars would observe the position of the sun and stars, predicting the timing and strength of the monsoon rains, which was vital for their agrarian society.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Present Section -->
+        <section id="present" class="content-section">
+            <h2>Present Day Weather Prediction</h2>
+            <p>Today, weather prediction is a highly advanced science that combines technology, atmospheric physics, and vast amounts of data to provide accurate forecasts. Modern meteorology relies on a network of global satellites, advanced supercomputers, radar systems, and sophisticated models that analyze atmospheric conditions.</p>
+            
+            <div class="card-container" >
+                <div class="card">
+                    <h3 class="x2">Satellite Technology</h3>
+                    <p> <i>Geostationary and Polar Satellites: </i>Satellites play a crucial role in monitoring Earth’s atmosphere from space. Geostationary satellites hover over the same spot on Earth, providing continuous data on cloud movements, storm systems, and surface temperatures. Polar-orbiting satellites, meanwhile, circle the Earth and provide global coverage, capturing high-resolution images that help monitor ocean temperatures, ice movement, and atmospheric conditions. <br> <br>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="x2">Radar Systems and Remote Sensing</h3>
+                    <p><i>Doppler Radar: </i>Doppler radar is essential for tracking precipitation, wind speed, and storm intensity. By measuring the velocity of precipitation particles, Doppler radar can determine the speed and direction of a storm. This technology is crucial for severe weather prediction, particularly for monitoring thunderstorms, tornadoes, and hurricanes. <br><br>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="x2">Forecasting Models and Algorithms</h3>
+                    <p><i>Global and Regional Models: </i>Different forecasting models serve various purposes. Global models like the GFS and ECMWF offer long-range forecasts, while regional models such as the North American Mesoscale Model (NAM) are optimized for short-term, localized predictions. These models account for varying altitudes, temperatures, and winds to project weather patterns accurately. <br> <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Section -->
+        <section id="future" class="content-section">
+            <h2>The Future of Weather Prediction</h2>
+            <p>The future of weather prediction is set to become even more precise, rapid, and adaptable, thanks to advances in technology and data analysis. As climate change drives more unpredictable and severe weather patterns, meteorologists are working on ways to improve forecasting accuracy and lead times.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="x3">Artificial Intelligence and Machine Learning</h3>
+                    <p><i>Enhanced Forecasting Models: </i>Machine learning algorithms can analyze enormous amounts of data from past weather events to identify patterns and improve forecast accuracy. AI-powered models are expected to learn from data continuously, making predictions more precise as they incorporate new information. <br><br>
+                        <i>Real-Time Decision-Making: </i>AI will help meteorologists make real-time decisions by processing large datasets faster than traditional methods. This is particularly beneficial for predicting extreme weather events where rapid decision-making is crucial. <br><br>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="x3">New Prediction Models for Extreme Weather</h3>
+                    <p><i>Advanced Extreme Weather Modeling: </i>As extreme weather events increase, the development of specialized models that focus on hurricanes, wildfires, and flash floods is underway. These models will aim to predict extreme events with greater accuracy, including the exact paths, intensity, and potential impacts. <br><br>
+                        Better Preparedness and Response: With better models, forecasters will be able to provide more specific alerts, improving disaster preparedness and response. For instance, communities will be able to anticipate the likely areas affected by a hurricane storm surge and prepare evacuation routes more effectively.</p>
+                </div>
+                <div class="card">
+                    <h3 class="x3">Augmented Reality (AR) in Weather Communication</h3>
+                    <p><i>Visualizing Forecasts: </i>Augmented reality tools could help the public visualize upcoming weather changes more interactively, with AR overlays on smartphones or smart glasses that show storm paths, temperatures, and other forecasts in real-time. <br><br>
+                        <i>Improved Emergency Response: </i>AR could also assist emergency responders by providing real-time, visual weather information, such as flood levels or wildfire spread, in affected areas.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="goal">
+            <h1>Goals we Intend to Achieve</h1>
+            <p>Aligned with Sustainable Development Goals (SDG) 9 and 13, "Weather Insights" strives to foster resilience through innovation and climate awareness. We believe that reliable weather data is essential infrastructure for sustainable communities and that promoting climate knowledge is crucial in the fight against climate change. By making weather information clear and accessible, we’re supporting SDG 9’s call for innovation and sustainable infrastructure, as well as SDG 13’s mission to take urgent action against climate change.</p>
+            <div class="goal-card">
+                <div class="goals">
+                    <h2>Goal 9</h2>
+                    <img src="images/sdg9.png" alt="">
+                    <p>Our project supports SDG 9 by building resilient infrastructure through accessible weather data, fostering innovation in technology for reliable and informed decision-making.</p>
+                </div>
+                <div class="goals">
+                    <h2>Goal 13</h2>
+                    <img src="images/sdg13.jpg" alt="">
+                    <p>Aligned with SDG 13, our project promotes climate awareness and preparedness by providing insights into changing weather patterns, encouraging proactive action in the face of climate change.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather Insights | All rights reserved</p>
+        <p>-<a id="footer-link" href="mailto: 1prxnjal@gmail.com"> Pranjal Sinha &hearts;</a>-</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
